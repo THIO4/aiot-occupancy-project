@@ -18,15 +18,21 @@ Tämä projekti on reaaliaikainen IoT-järjestelmä, joka seuraa laboratorion k�
 **Virtuaaliympäristö:**
     ```bash
     python3 -m venv venv
+    ```
 
 **Virtuaaliympäristön aktivointi:**
     ```bash
-    source venv/bin/activates
+    # Aktivointi (Linus/Mac):
+    source venv/bin/activate
+
+    # Aktivointi (Windows):
+    .\venv\Scripts\activate
+    ```
 
 1. **Kloonaa repo:**
    ```bash
    git clone https://github.com/THIO4/aiot-occupancy-project
-   cd projektin-kansio
+   cd aiot-occupancy-project
 
 2. **Asenna riippuvuudet:**
     ```bash
@@ -44,7 +50,7 @@ MQTT_PASS=salasana
 MQTT_HOST=broker.osoite.com
 MQTT_PORT=1883
 MQTT_TOPIC=labra/occupancy
-
+```
 
 4. **Käynnistä dashboard**
     ```bash
