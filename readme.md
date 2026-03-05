@@ -38,6 +38,8 @@ T채m채 projekti on reaaliaikainen IoT-j채rjestelm채, joka seuraa laboratorion k�
     pip install -r requirements.txt
 
 3. **K채ynnist채 datankeruu taustalle**
+
+**T채m채 luo samalla data/occupancy.db tietokantatiedoston, johon data tallentuu**
     ```bash
     python src/mqtt_collector.py
 
