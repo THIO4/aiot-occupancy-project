@@ -20,10 +20,10 @@ Tämä projekti on reaaliaikainen IoT-järjestelmä, joka seuraa laboratorion k�
 
 
 **Virtuaaliympäristön aktivointi:**
-    **# Aktivointi (Linus/Mac):**
-        source venv/bin/activate
+**Aktivointi (Linus/Mac):**
+    source venv/bin/activate
 
-**# Aktivointi (Windows):**
+**Aktivointi (Windows):**
     .\venv\Scripts\activate
     
 
