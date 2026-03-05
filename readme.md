@@ -18,16 +18,17 @@ Tämä projekti on reaaliaikainen IoT-järjestelmä, joka seuraa laboratorion k�
 **Virtuaaliympäristö:**
     ```bash
     python3 -m venv venv
-    ```
+
 
 **Virtuaaliympäristön aktivointi:**
+**# Aktivointi (Linus/Mac):**
     ```bash
-    # Aktivointi (Linus/Mac):
     source venv/bin/activate
 
-    # Aktivointi (Windows):
+**# Aktivointi (Windows):**
+    ```bash
     .\venv\Scripts\activate
-    ```
+    
 
 1. **Kloonaa repo:**
    ```bash
