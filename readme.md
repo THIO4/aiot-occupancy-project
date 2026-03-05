@@ -36,14 +36,14 @@ Tämä projekti on reaaliaikainen IoT-järjestelmä, joka seuraa laboratorion k�
     ```bash
     python src/mqtt_collector.py
 
-**HUOM** 
-**Sinun täytyy lisätä .env tiedosto projektin juurikansioon, josta mqtt_collector.py hakee sinun MQTT credentials seuraavassa muodossa:**
-    ```bash
-    MQTT_USER=********
-    MQTT_PASS=********
-    MQTT_HOST= ********
-    MQTT_PORT=********
-    MQTT_TOPIC=********
+**HUOM!** Sinun täytyy lisätä `.env`-tiedosto projektin juurikansioon, josta `mqtt_collector.py` hakee MQTT-tunnuksesi seuraavassa muodossa:
+
+```env
+MQTT_USER=kayttajanimi
+MQTT_PASS=salasana
+MQTT_HOST=broker.osoite.com
+MQTT_PORT=1883
+MQTT_TOPIC=labra/occupancy
 
 
 4. **Käynnistä dashboard**
