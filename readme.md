@@ -1,6 +1,6 @@
-# AIoT & ROBO LAB - Kävijäseuranta ja Ennustejärjestelmä
+# AIoT & ROBO LAB - Kävijäseuranta ja ennustejärjestelmä
 
-Tämä projekti on reaaliaikainen IoT-järjestelmä, joka seuraa laboratorion kävijämääriä MQTT-protokollan avulla, tallentaa datan SQLite-tietokantaan ja visualisoi sen ennustemallilla varustetulla Dashboardilla.
+Tämä projekti on reaaliaikainen IoT-järjestelmä, joka seuraa laboratorion kävijämääriä MQTT-protokollan avulla, tallentaa datan SQLite-tietokantaan paikallisesti ja visualisoi sen ennustemallilla varustetulla dashboardilla.
 
 ## Ominaisuudet
 - **Reaaliaikainen seuranta:** MQTT-pohjainen datankeruu sensoreilta.
